@@ -1,0 +1,54 @@
+name: music_player
+description: A new Flutter project.
+publish_to: 'none' 
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^3.2.0
+  firebase_auth: ^5.1.2
+  cloud_firestore: ^5.1.0
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  flutter_rating_bar: ^4.0.1
+  sleek_circular_slider: ^2.0.1
+  audio_service: ^0.18.11
+  just_audio: ^0.9.39
+  get_it: ^7.7.0
+  cached_network_image: ^3.2.3
+  
+  flutter_svg:
+  flutter_bloc:
+  hydrated_bloc:
+  path_provider:
+  dartz:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/img/
+  fonts:
+    - family: Circular Std
+      fonts:
+        - asset: assets/fonts/CircularStd-Book.otf
+        - asset: assets/fonts/CircularStd-Medium.otf
+          weight: 600
+        - asset: assets/fonts/CircularStd-Bold.otf
+          weight: 700
+        - asset: assets/fonts/CircularStd-Black.otf
+          weight: 800
+ 
